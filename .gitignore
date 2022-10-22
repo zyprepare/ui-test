@@ -1,0 +1,37 @@
+# MIFE dotfiles
+
+# Output files
+lib/
+es/
+
+# Editor generate files
+.idea/
+.settings/
+.tmp/
+.history/
+
+packages/*/test/coverage/
+# Dev dependencies and cache files
+packages/*/node_modules/
+node_modules/
+# Misc files
+*~
+~*
+._*
+.DS_Store
+Desktop.ini
+Thumbs.db
+.Spotlight-V100
+.Trashes
+.eslintrc.json
+package-lock.json
+lerna-debug.log
+yarn-error.log
+
+.turbo
+build/**
+dist/**
+dist-github/**
+.next/**
+
+storybook-static

@@ -1,0 +1,13 @@
+@import '~@hi-ui/core-css/lib/index.scss';
+
+$prefix: '#{$component-prefix}-space' !default;
+
+.#{$prefix} {
+  display: inline-flex;
+}
+
+.#{$prefix}--column-block {
+  > .#{$prefix}__item {
+    width: 100%;
+  }
+}
