@@ -16,11 +16,16 @@ jobs:
       - name: Test
         run: echo ${{ github.ref }} ${{ github.head_ref }} ${{ github.event.pull_request.merged }}
 
-      - name: Set npm config
-        run: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
-
       - name: Checkout Repo
         uses: actions/checkout@v3
+
+      - name: Creating .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //registry.npmjs.org/:_authToken=$NPM_TOKEN
+          EOF
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Setup Node.js 14.17.x
         uses: actions/setup-node@v2
@@ -43,4 +48,5 @@ jobs:
 
       - name: Push Tags
         run: |
+          git checkout -- .npmrc
           git push --follow-tags
