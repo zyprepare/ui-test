@@ -16,6 +16,9 @@ jobs:
       - name: Test
         run: echo ${{ github.ref }} ${{ github.head_ref }} ${{ github.event.pull_request.merged }}
 
+      - name: Set npm config
+        run: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
+
       - name: Checkout Repo
         uses: actions/checkout@v3
 
