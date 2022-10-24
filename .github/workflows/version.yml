@@ -44,7 +44,7 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           commit-message: Generate version and changelog
-          title: Update Version
+          title: Release
           body: Update the version and changelog of the package
           branch: release/${{ steps.date.outputs.today }}
           base: main

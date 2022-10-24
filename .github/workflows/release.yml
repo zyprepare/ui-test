@@ -28,6 +28,10 @@ jobs:
         run: |
           yarn
 
+      - name: Build packages
+        run: |
+          yarn run build
+
       - name: Publish
         run: yarn run publish
         env:
