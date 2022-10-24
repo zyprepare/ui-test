@@ -8,8 +8,7 @@
       "packages/hooks/*",
       "packages/core/*",
       "packages/icons/*",
-      "packages/patches/*",
-      "scripts/*"
+      "packages/patches/*"
     ]
   },
   "scripts": {
@@ -63,7 +62,8 @@
     "styled-components": "^5.2.1",
     "ts-jest": "^27.0.4",
     "turbo": "^1.5.6",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "@hi-ui/hi-build": "^4.0.0"
   },
   "dependencies": {
     "@babel/plugin-external-helpers": "^7.12.13",
