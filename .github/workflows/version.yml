@@ -10,6 +10,7 @@ on:
         options:
           - alpha
           - beta
+          - rc
           - latest
         default: 'latest'
 
