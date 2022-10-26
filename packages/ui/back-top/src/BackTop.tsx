@@ -13,7 +13,7 @@ const BACK_TOP_PREFIX = getPrefixCls('back-top')
 
 /**
  * TODO: What is BackTop
- * t
+ *
  */
 export const BackTop = forwardRef<HTMLDivElement | null, BackTopProps>(
   (
