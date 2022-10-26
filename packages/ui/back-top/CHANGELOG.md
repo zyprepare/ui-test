@@ -1,5 +1,11 @@
 # @hi-ui/back-top
 
+## 4.0.5
+
+### Patch Changes
+
+- [`1323797`](https://github.com/zyprepare/ui-test/commit/1323797561ef8ef68148f23a26e2eaaaa224232d) - test
+
 ## 4.0.6
 
 ### Patch Changes
