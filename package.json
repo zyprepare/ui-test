@@ -8,7 +8,8 @@
       "packages/hooks/*",
       "packages/core/*",
       "packages/icons/*",
-      "packages/patches/*"
+      "packages/patches/*",
+      "scripts/*"
     ]
   },
   "scripts": {
@@ -39,6 +40,7 @@
     "@babel/preset-typescript": "~7.12.7",
     "@changesets/changelog-github": "^0.4.7",
     "@changesets/cli": "^2.25.0",
+    "@hi-ui/hi-docs": "^4.0.1",
     "@storybook/addon-actions": "^6.3.12",
     "@storybook/addon-essentials": "^6.3.12",
     "@storybook/addon-links": "^6.3.12",
@@ -62,8 +64,7 @@
     "styled-components": "^5.2.1",
     "ts-jest": "^27.0.4",
     "turbo": "^1.5.6",
-    "typescript": "^4.3.5",
-    "@hi-ui/hi-build": "^4.0.0"
+    "typescript": "^4.3.5"
   },
   "dependencies": {
     "@babel/plugin-external-helpers": "^7.12.13",
