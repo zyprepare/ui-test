@@ -69,6 +69,7 @@
   "dependencies": {
     "@babel/plugin-external-helpers": "^7.12.13",
     "@babel/plugin-transform-runtime": "^7.13.15",
+    "@hi-ui/hi-build": "^4.0.1",
     "@storybook/preset-scss": "^1.0.3",
     "cross-env": "^7.0.3",
     "gh-pages": "^4.0.0",
