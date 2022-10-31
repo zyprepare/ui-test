@@ -32,8 +32,8 @@
     "v": "changeset version",
     "publish": "changeset publish --registry=https://registry.npmjs.org/",
     "deploy": "gh-pages -t -d dist-github --git \"$(which git)\"",
-    "pregenerate-docs": "yarn lerna run auto-generate --scope=@hi-ui/icons",
-    "generate-docs": "yarn lerna run generate-docs --scope=@hi-ui/hi-docs"
+    "pregenerate-docs": "yarn turbo run auto-generate --scope=@hi-ui/icons",
+    "generate-docs": "yarn turbo run generate-docs --scope=@hi-ui/hi-docs"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16",
