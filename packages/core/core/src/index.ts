@@ -66,7 +66,7 @@ export const HiBaseSizeEnum = {
   LG: 'lg',
 } as const
 
-// 对外暴露同名联合类型
+// 对外暴露同名联合类型-
 // eslint-disable-next-line no-redeclare
 export type HiBaseSizeEnum = ValueOf<typeof HiBaseSizeEnum>
 
