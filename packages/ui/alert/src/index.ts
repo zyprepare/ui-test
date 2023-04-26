@@ -11,5 +11,4 @@ function c() {
   if (b.length < 0) {
     console.log(c)
   }
-  return (b && b) ?? ''
 }
