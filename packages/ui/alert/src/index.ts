@@ -6,9 +6,12 @@ export { Alert as default } from './Alert'
 export * from './types'
 console.log('', a)
 
+// / 帮我写个注释
 function c() {
   const b = []
+
   if (b.length === 0) {
     console.log(c)
   }
+  console.log()
 }
