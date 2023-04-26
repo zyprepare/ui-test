@@ -4,8 +4,12 @@ export * from './Alert'
 export { Alert as default } from './Alert'
 
 export * from './types'
-console.log(a)
-const b = []
-if (b < 0) {
-  console.log(c)
+console.log('', a)
+
+function c() {
+  const b = []
+  if (b < 0) {
+    console.log(c)
+  }
+  return (b && b) ?? ''
 }
