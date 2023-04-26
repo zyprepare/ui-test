@@ -9,7 +9,7 @@
       "packages/core/*",
       "packages/icons/*",
       "packages/patches/*",
-      "scripts/*"
+      "scripts/hi-docs"
     ]
   },
   "scripts": {
@@ -40,6 +40,7 @@
     "@babel/preset-typescript": "~7.12.7",
     "@changesets/changelog-github": "^0.4.7",
     "@changesets/cli": "^2.25.0",
+    "@hi-ui/hi-build": "^4.0.1",
     "@hi-ui/hi-docs": "^4.0.1",
     "@storybook/addon-actions": "^6.3.12",
     "@storybook/addon-essentials": "^6.3.12",
